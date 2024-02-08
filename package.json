@@ -1,0 +1,19 @@
+{
+  "name": "automation-exercise-1_wdio",
+  "version": "1.0.0",
+  "description": "Automated testing using WebdriverIO to http://automationexercise.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run src/config/wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.29.3",
+    "@wdio/cli": "^8.29.3",
+    "@wdio/local-runner": "^8.29.5",
+    "@wdio/mocha-framework": "^8.29.3",
+    "@wdio/spec-reporter": "^8.29.3"
+  }
+}
