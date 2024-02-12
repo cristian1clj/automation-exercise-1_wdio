@@ -10,6 +10,10 @@ class TopbarComponent extends BaseComponent {
         return this.rootEl.$('//a[@href="/login"]');
     }
 
+    get logoutBtn() {
+        return this.rootEl.$('//a[@href="/logout"]');
+    }
+
     get deleteAccountBtn() {
         return this.rootEl.$('//a[@href="/delete_account"]');
     }

@@ -22,6 +22,10 @@ class SignupFormComponent extends BaseComponent {
         return this.rootEl.$('//button[@data-qa="signup-button"]');
     }
 
+    get registeredEmailMsg() {
+        return this.rootEl.$('//p[@style="color: red;"]');
+    }
+
 }
 
 module.exports = SignupFormComponent;
